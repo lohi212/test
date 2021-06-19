@@ -1,0 +1,25 @@
+.tab-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+.tab-container .pane {
+  width: 20%;
+  border-left: 1px solid #cccccc;
+  padding: 20px;
+  color: #5a6f90;
+  cursor: pointer;
+  max-height: inherit;
+}
+
+.tab-container .pane-active {
+  background-color: #5a6f90;
+  color: #f7f7f7;
+  font-weight: bold;
+  transition: ease-in 0.2s;
+}

@@ -1,0 +1,63 @@
+.card-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  max-width: 250px;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.7);
+}
+
+.card-container .title-container {
+  background: #5a6f90;
+  width: 100%;
+  color: #f7f7f7;
+  font-weight: 700;
+}
+
+.card-container .details {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
+  border-bottom: 1px dashed #cccccc;
+  background: #ffffff;
+}
+
+.details .pricing-details-text {
+  margin: 0px;
+  color: #5a6f90;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.details .price {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.free-trial-button {
+  width: 100%;
+  border: 1px solid #ee5a35;
+  color: #ee5a35;
+  padding: 10px;
+  background: transparent;
+  margin-top: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.free-trial-button:hover, .free-trial-button-active {
+  background-color: #ee5a35;
+  color: #ffffff;
+}
+
+.most-popular-label {
+  padding: 10px;
+  background-color: #ee5a35;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
